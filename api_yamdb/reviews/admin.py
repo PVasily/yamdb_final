@@ -1,5 +1,5 @@
 from django.contrib import admin
-from reviews.models import (Category, Comment, Genre, GenreTitle, Review,
+from reviews.models import (Category, Genre, GenreTitle, Review,
                             Title, User)
 
 EMPTY = '-пусто-'
@@ -51,18 +51,18 @@ class ReviewAdmin(admin.ModelAdmin):
     empty_value_display = EMPTY
 
 
-@admin.register(Comment)
-class ReviewAdmin(admin.ModelAdmin):
-    list_display = (
-        'pk',
-        'text',
-        'author',
-        'pub_date',
-        'review',
-    )
-    search_fields = ('text',)
-    list_filter = ('author',)
-    empty_value_display = EMPTY
+# @admin.register(Comment)
+# class ReviewAdmin(admin.ModelAdmin):
+#     list_display = (
+#         'pk',
+#         'text',
+#         'author',
+#         'pub_date',
+#         'review',
+#     )
+#     search_fields = ('text',)
+#     list_filter = ('author',)
+#     empty_value_display = EMPTY
 
 
 admin.site.register(GenreTitle)
