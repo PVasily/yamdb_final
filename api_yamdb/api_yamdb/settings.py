@@ -15,7 +15,6 @@ SECRET_KEY = os.getenv('SECRET_KEY', default='testkey')
 DEBUG = False
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
-# ALLOWED_HOSTS = [] if not any(ALLOWED_HOSTS) else ALLOWED_HOSTS
 
 
 # Application definition
