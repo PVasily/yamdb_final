@@ -1,6 +1,8 @@
 # Проект «Yamdb»
 
-![example workflow](https://github.com/Pvasily/test_infra/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+![example workflow](https://github.com/Pvasily/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+
+*Проект доступен по адресу*  [a link](http://51.250.25.69:8888/redoc/) 
 
 ### Описание
 
