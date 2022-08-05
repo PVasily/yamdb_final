@@ -1,6 +1,8 @@
 # Проект «Yamdb»
 
-![example workflow](https://github.com/Pvasily/test_infra/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+![example workflow](https://github.com/Pvasily/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
+
+*Проект доступен по адресу*  [http://51.250.25.69:8888/redoc/](http://51.250.25.69:8888/redoc/) 
 
 ### Описание
 
@@ -44,6 +46,7 @@
 - Получить список всех категорий
 - Создать категорию
 - Удалить категорию
+
 *GENRES*
 - Получить список всех жанров
 - Создать жанр
@@ -55,7 +58,6 @@
 - Информация об объекте
 - Обновить информацию об объекте
 - Удалить произведение
-- Документация к API доступна по адресу http://127.0.0.1/redoc/
 
 ### Установка
 __Шаг 1. Проверьте установлен ли у вас Docker__
